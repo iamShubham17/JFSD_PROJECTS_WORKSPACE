@@ -1,0 +1,4 @@
+server.port=9090
+spring.security.user.name=shubham
+spring.security.user.password=shubham@1234
+

@@ -1,0 +1,14 @@
+package com.shubham.beans;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ReportServices {
+
+	public ReportServices() {
+
+		System.out.println("ReportService :: Constructor");
+
+	}
+
+}

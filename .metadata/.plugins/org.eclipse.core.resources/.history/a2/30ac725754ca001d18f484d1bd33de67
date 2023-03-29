@@ -1,0 +1,17 @@
+package com.infosys;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+		
+		Car c = ctx.getBean(Car.class)
+		System.out.println(c.hashCode());
+	}
+
+}
